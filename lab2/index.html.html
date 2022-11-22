@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<style type="text/css">
+	body{
+		background-color: gray;
+	}
+
+	.em{
+		text-decoration: underline;
+		color: whitesmoke;
+	}
+
+	.label{
+		color: lightblue;
+	}
+
+	#title{
+		color:greenyellow;
+	}
+
+	#title .em{
+		color: inherit;
+	}
+
+	h2 .em{
+		color: darkred;
+	}
+
+
+
+	
+</style>
+<body>
+	<h1><strong class="em">New HTML5 Input Types Demo</strong></h1>
+	<p id="title">This form demonstates the new <strong class="em">HTML5</strong> input types and the placeholder, required and atofocus attributes.</p>
+	<form action="/action_page.php">
+		<label for="color" class="label">Color:
+			<input type="color"  autofocus />
+			(Hexadecimal code such as #ADD8E6)
+		</label>
+
+		<p><label for = "date" class="label">Date:
+		<input type="text"   id="date" name="date" value ="mm/dd/yyyy" color = "black">
+		(yyyy-mm-dd)
+		</label></p>
+
+		<p><label for="email" class="label">Email:
+			<input type="email" id = "email" name="email" placeholder="name@domain.com" required>
+			(name@domain.com)
+		</label></p>
+
+		<p><label for = "number" class="label" >Number:
+			<input type="number"  id = "Number" name="Number" min="0" max="7" value="4"> 
+			(Enter a number between 0 and 7)
+		</label></p>
+
+		<p><label for = range class="label">Range:
+			<input type="range"  id = "range"  name="range" min="0" max="20">
+		</label></p>
+
+		<p><label for="search" class="label">Search:
+			<input type="search" id = "search"  name="search" placeholder = "search query">
+		</label></p>
+
+		<p><label for="time" class="label">Time:
+			<input type="time" id = "time"  name="time">
+			(hh:mm)
+		</label></p>
+
+		<input type="submit" value="Submite">
+		<input type="submit" value="clear">
+	</form>
+
+	<h2><strong class="em">thanks</strong></h2>
+</body>
+</html>
