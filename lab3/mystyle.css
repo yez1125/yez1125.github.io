@@ -1,0 +1,54 @@
+
+body {
+	font-family: arial , sans-serif;
+	padding: 100px 100px 100px 100px;
+	color: white;
+	background-color: skyblue;
+
+}
+
+nav{
+	font-weight: bold;
+	border: 2px solid gold;
+	text-align: center;
+	width: 10em;
+	background-color: brown;
+}
+
+ul{
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav:hover ul{
+	display: block;
+	width: 10em;
+	position: relative;
+	left: -1em;
+	top: -0.5em;
+}
+
+li{
+	border-right: 2px dotted turquoise;
+	background-color: white;
+	width:5em;
+	color: green;
+	margin: 2em;
+	padding: 2em;
+}
+
+li:hover{
+	background-color: tomato;
+}
+
+a{
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 480px){
+	body{
+		background-color: burlywood;
+	}
+}
