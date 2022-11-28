@@ -47,7 +47,7 @@ a{
 	text-decoration: underline;
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 480em){
 	body{
 		background-color: burlywood;
 	}
