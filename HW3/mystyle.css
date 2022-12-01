@@ -4,6 +4,7 @@ body{
 	right: 0%;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: aqua;
 }
 
 div label{
@@ -26,7 +27,7 @@ div label{
 	width: 65%;
 }
 
-#input1{
+#input1 , #input4 , #picture{
 	margin: 1% 1% 1% 1%;
 }
 
@@ -35,13 +36,6 @@ div label{
 
 }
 
-#input4{
-	margin: 1% 1% 1% 1%;
-}
-
-#picture{
-	margin: 1% 1% 1% 1%;
-}
 
 img{
 	width: 80%;
@@ -69,8 +63,9 @@ img{
 	}
 }
 
-@media print{
+@media print 
+{
 	body{
-		background-color: orange;
+		background-color: skyblue;
 	}
 }
