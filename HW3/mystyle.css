@@ -6,37 +6,59 @@ body{
 	margin-right: auto;
 }
 
-
-body #picture{
-	height: 20%;
-	width: 100%;
-	margin: 1% 1% 1% 1%;
+div label{
+	padding-right: 5%;
 }
 
-body #input1{
-	margin: 1% 1% 1% 1%;
-	width: 100%;
-	
-}
-
-body #input2{
-	margin: 1% 1% 1% 1%;
-	width: 35%;
-}
-
-body #input3{
-	float: right;
-	margin: 0% 1% 1% 1%;
-	width: 35%;
-}
-
-body #input4{
-	margin: 0% 1% 1% 1%;
+.input1{
 	width: 80%;
 }
 
-body #textarea{
-	width: 100%;
-	height: 30%;
+.input2{
+	width: 35%;
+}
+
+.input4{
+	width: 65%;
+}
+
+.input3{
+	width: 65%;
+}
+
+#input1{
+	margin: 1% 1% 1% 1%;
+}
+
+#input2{
+	margin: 1% 0% 1% 1%;
+
+}
+
+#input4{
+	margin: 1% 1% 1% 1%;
+}
+
+#picture{
+	margin: 1% 1% 1% 1%;
+}
+
+img{
+	width: 80%;
+}
+
+
+#input3{
 	margin: 0% 1% 1% 1%;
+	float: right;
+	padding-right: 20%;
+}
+
+#textarea{
+	margin: 0% 1% 1% 1%;
+}
+
+.text{
+	width: 80%;
+	height: 100%;
 }
