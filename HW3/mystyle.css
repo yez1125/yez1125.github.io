@@ -62,3 +62,15 @@ img{
 	width: 80%;
 	height: 100%;
 }
+
+@media screen and (min-width: 780px){
+	body{
+		background-color: burlywood;
+	}
+}
+
+@media print{
+	body{
+		background-color: orange;
+	}
+}
